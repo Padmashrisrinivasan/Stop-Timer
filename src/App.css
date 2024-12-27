@@ -1,0 +1,120 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  border: groove;
+  width: 100%; 
+  margin: 0 auto;
+  background-color: rgb(180, 249, 228);
+}
+.controls {
+   display: flex; 
+   gap: 10px; 
+  }
+.sub-container {
+  background-color: white;
+  padding: 40px; 
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+  text-align: center;
+  width: 350px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.timer {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  width: 250px; 
+  height: 250px;
+  border: 5px solid #333;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.start {
+  font-size: 20px; 
+  border: groove;
+  border-radius: 5px;
+  margin: 10px; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: deepskyblue;
+  border-color: deepskyblue;
+}
+
+.stop {
+  font-size: 20px; 
+  border: groove;
+  border-radius: 5px;
+  margin: 10px; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: crimson;
+  border-color:crimson;
+}
+.reset{
+  font-size: 20px; 
+  border: groove;
+  border-radius: 5px;
+  margin: 10px; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color:gold;
+  border-color:gold;
+}
+.start:hover {
+  background-color: rgb(174, 226, 244); 
+}
+
+.stop:hover {
+  background-color: #f6a1a1; 
+}
+.reset:hover{
+  background-color: rgb(248, 237, 174);
+}
+
+@media (max-width: 768px) {
+  .sub-container {
+    padding: 30px;
+    width: 80%;
+  }
+
+  .timer {
+    width: 120px;
+    height: 120px;
+    font-size: 36px;
+  }
+
+  .start,.stop,.reset {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sub-container {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .timer {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+  }
+
+  .start, .stop ,.reset{
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+}
