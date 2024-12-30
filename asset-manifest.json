@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Stop-Timer/static/css/main.eaa92cf2.css",
+    "main.js": "/Stop-Timer/static/js/main.bffa7374.js",
+    "static/js/488.edc988c8.chunk.js": "/Stop-Timer/static/js/488.edc988c8.chunk.js",
+    "index.html": "/Stop-Timer/index.html",
+    "main.eaa92cf2.css.map": "/Stop-Timer/static/css/main.eaa92cf2.css.map",
+    "main.bffa7374.js.map": "/Stop-Timer/static/js/main.bffa7374.js.map",
+    "488.edc988c8.chunk.js.map": "/Stop-Timer/static/js/488.edc988c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa92cf2.css",
+    "static/js/main.bffa7374.js"
+  ]
+}
